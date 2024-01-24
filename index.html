@@ -32,7 +32,7 @@
   </style>
 </head>
 
-<body class="font-manrope">
+<body class="font-manrope ml-4 lg:ml-12 ">
   <header class="md:container md:mx-auto">
     <!-- navbar section  -->
     <nav>
@@ -46,7 +46,7 @@
               </svg>
             </div>
             <ul tabindex="0"
-              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-base bg-base-100 rounded-box w-52">
+              class="menu menu-sm dropdown-content gap-11 mt-3 z-[1] p-2 shadow text-base bg-base-100 rounded-box w-52">
               <li><a class="text-hockey-primary">Home</a></li>
               <li><a>About</a></li>
               <li><a>Pages</a></li>
@@ -54,10 +54,10 @@
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl lg:text-4xl">Gentle Hockey’s</a>
+          <a class="btn btn-ghost text-2xl lg:text-4xl">Gentle Hockey’s</a>
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu text-base menu-horizontal px-1">
+          <ul class="menu text-base menu-horizontal gap-11 px-1">
             <li><a class="text-hockey-primary">Home</a></li>
             <li><a>About</a></li>
             <li><a>Pages</a></li>
@@ -71,7 +71,7 @@
       </div>
     </nav>
     <!-- slider section -->
-    <div class="carousel w-full lg: h-[550px] mt-10">
+    <div class="carousel w-full h-[350px] lg:h-[650px] mt-10">
       <div id="slide1" class="carousel-item relative w-full">
         <img src="images/1.png" class="w-full" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -93,7 +93,7 @@
     <section>
       <hr style="height:2px;margin-top:100px;border-width:0;color:rgb(78, 9, 253);background-color:gray">
       <div>
-        <h3 class="text-[#131318] text-center text-4xl font-extrabold mt-8">
+        <h3 class="text-[#131318] text-center text-2xl lg:text-4xl font-extrabold my-8">
           Professional Hockeys Club
         </h3>
         <p class="text-gray-500 text-center text-base font-medium">
@@ -104,30 +104,30 @@
       </div>
       <hr style="height:2px;margin-top: 32px;border-width:0;color:rgb(78, 9, 253);background-color:gray">
     </section>
-    <section class="flex flex-1 w-full justify-between mt-12">
+    <section class="grid grid-cols-1 lg:grid-cols-4 gap-20 text-center w-full justify-between mt-12">
       <!-- first professionsl -->
-      <div class="flex-1">
+      <div class="">
         <div class="radial-progress w-28 h-28 text-[#FF4240] text-primary" style="--value:87;" role="progressbar"><span
             class="text-[#131318] font-extrabold text-3xl">87%</span></div>
         <h4 class="text-[#131318] text-xl font-semibold">Prayer Facility</h4>
         <p class="text-gray-500 text-base font-normal">There have prayer facilities <br> for all religious person.</p>
       </div>
       <!-- second professionsl -->
-      <div class="flex-1">
+      <div class="">
         <div class="radial-progress w-28 h-28 text-[#49D293] text-primary" style="--value:95;" role="progressbar"><span
             class="text-[#131318] font-extrabold text-3xl">95%</span></div>
         <h4 class="text-[#131318] text-xl font-semibold">Experienced Coach</h4>
         <p class="text-gray-500 text-base font-normal">We have so much experienced <br> coach for every section.</p>
       </div>
       <!-- third professionsl -->
-      <div class="flex-1">
+      <div class="">
         <div class="radial-progress w-28 h-28 text-[#FFB546] text-primary" style="--value:90;" role="progressbar"><span
             class="text-[#131318] font-extrabold text-3xl">90%</span></div>
         <h4 class="text-[#131318] text-xl font-semibold">Senior Player</h4>
         <p class="text-gray-500 text-base font-normal">There are available <br> senior player.</p>
       </div>
       <!-- fourth professionsl -->
-      <div class="flex-1">
+      <div class="">
         <div class="radial-progress w-28 h-28 text-[#4C8DF1] text-primary" style="--value:80;" role="progressbar"><span
             class="text-[#131318] font-extrabold text-3xl">80%</span></div>
         <h4 class="text-[#131318] text-xl font-semibold">Training Ground</h4>
@@ -137,13 +137,13 @@
     <!-- Program section -->
     <section>
       <hr style="height:2px;margin-top:100px;border-width:0;color:rgb(78, 9, 253);background-color:gray">
-      <h3 class="text-[#131318] text-center text-4xl font-extrabold mt-8">Program Sections</h3>
+      <h3 class="text-[#131318] text-center text-4xl font-extrabold my-8">Program Sections</h3>
       <p class="text-gray-500 text-center text-base font-medium">Many tournament are played in our club various ages
         team. Such as: under-14, under-16, under-19, under-21 etc. <br> in different countries in the world. </p>
       <hr style="height:2px;margin-top:32px;border-width:0;color:rgb(78, 9, 253);background-color:gray">
     </section>
     <section class="mt-8">
-      <div class="flex gap-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div class="hero min-h-screen w-full h-h-80" style="background-image: url(/images//2.png);">
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content">
@@ -191,133 +191,336 @@
     <section>
       <hr style="height:2px;margin-top:100px;border-width:0;color:rgb(78, 9, 253);background-color:gray">
       <div>
-        <h3 class="text-[#131318] text-center text-4xl font-extrabold mt-8">Our New Products</h3>
-        <p class="text-gray-500 text-center text-base font-medium">New catching glove from CCM's Axis line! Expected to
+        <h3 class="text-[#131318] text-center text-4xl font-extrabold my-8">Our New Products</h3>
+        <p class="text-gray-500 text-center text-base font-medium">New catching glove from CCM's Axis line! Expected to <br>
           be released with the pads and blocker in 2024.</p>
       </div>
       <hr style="height:2px;margin-top:32px;border-width:0;color:rgb(78, 9, 253);background-color:gray">
     </section>
-    <section>
-
+    <section class="grid grid-cols-1 lg:grid-cols-2 text-center justify-between  gap-6 my-12">
+      <!-- first products -->
+      <div>
+        <div class="card card-side  bg-base-100 ">
+          <figure><img src="/images/5.png" class="w-60 h-60 p-6" alt="Movie" /></figure>
+          <div class="card-body">
+            <div class="grid grid-cols-3 ">
+              <div class="rating gap-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <p>5.0</p>
+              </div>
+              <div class="flex gap-4">
+                <img src="Images/icons8-eye-24.png" alt="">
+                <p>20</p>
+              </div>
+              <div class="">
+                <div class="rating gap-1 gap-4">
+                  <input type="radio" name="rating-3" class="mask mask-heart border-red-500 bg-gray-200" />
+                  <p>200</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="card-title text-[#131318] text-2xl font-extrabold">Winter jersey</h2>
+            <p class="text-gray-400">To win the trophy in 2022, they are going to need your help! With the 5ft x 3ft
+              Germany Flag.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+              <h3 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h3>
+              <div class="flex gap-4">
+                <img src="Images/download.png" class="w-6 h-6 text-gray-400" alt="">
+                <p class="text-gray-400">Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- second products -->
+      <div>
+        <div class="card card-side bg-base-100 ">
+          <figure><img src="/images/6.png" class="w-60 h-60 p-6" alt="Movie" /></figure>
+          <div class="card-body">
+            <div class="grid grid-cols-3 ">
+              <div class="rating gap-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <p>5.0</p>
+              </div>
+              <div class="flex gap-4">
+                <img src="Images/icons8-eye-24.png" alt="">
+                <p>20</p>
+              </div>
+              <div class="">
+                <div class="rating gap-1 gap-4">
+                  <input type="radio" name="rating-3" class="mask mask-heart border-red-500 bg-gray-200" />
+                  <p>200</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="card-title text-[#131318] text-2xl font-extrabold">Logo for Football tournament</h2>
+            <p class="text-gray-400">To win the trophy in 2022, they are going to need your help! With the 5ft x 3ft
+              Germany Flag.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+              <h3 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h3>
+              <div class="flex gap-4">
+                <img src="Images/download.png" class="w-6 h-6 text-gray-400" alt="">
+                <p class="text-gray-400">Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- third products -->
+      <div>
+        <div class="card card-side bg-base-100">
+          <figure><img src="/images/7.png" class="w-60 h-60 p-6" alt="Movie" /></figure>
+          <div class="card-body">
+            <div class="grid grid-cols-3 ">
+              <div class="rating gap-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <p>5.0</p>
+              </div>
+              <div class="flex gap-4">
+                <img src="Images/icons8-eye-24.png" alt="">
+                <p>20</p>
+              </div>
+              <div class="">
+                <div class="rating gap-1 gap-4">
+                  <input type="radio" name="rating-3" class="mask mask-heart border-red-500 bg-gray-200" />
+                  <p>200</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="card-title text-[#131318] text-2xl font-extrabold">Cap For Hockeys</h2>
+            <p class="text-gray-400">To win the trophy in 2022, they are going to need your help! With the 5ft x 3ft
+              Germany Flag.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+              <h3 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h3>
+              <div class="flex gap-4">
+                <img src="Images/download.png" class="w-6 h-6 text-gray-400" alt="">
+                <p class="text-gray-400">Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--fourth products -->
+      <div>
+        <div class="card card-side bg-base-100">
+          <figure><img src="/images/8.png" class="w-60 h-60 p-6" alt="Movie" /></figure>
+          <div class="card-body">
+            <div class="grid grid-cols-3 ">
+              <div class="rating gap-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <p>5.0</p>
+              </div>
+              <div class="flex gap-4">
+                <img src="Images/icons8-eye-24.png" alt="">
+                <p>20</p>
+              </div>
+              <div class="">
+                <div class="rating gap-1 gap-4">
+                  <input type="radio" name="rating-3" class="mask mask-heart border-red-500 bg-gray-200" />
+                  <p>200</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="card-title text-[#131318] text-2xl font-extrabold">Jersey for Football</h2>
+            <p class="text-gray-400">To win the trophy in 2022, they are going to need your help! With the 5ft x 3ft
+              Germany Flag.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+              <h3 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h3>
+              <div class="flex gap-4">
+                <img src="Images/download.png" class="w-6 h-6 text-gray-400" alt="">
+                <p class="text-gray-400">Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fifth products -->
+      <div>
+        <div class="card card-side bg-base-100">
+          <figure><img src="/images/9.png" class="w-60 h-60 p-6" alt="Movie" /></figure>
+          <div class="card-body">
+            <div class="grid grid-cols-3 ">
+              <div class="rating gap-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <p>5.0</p>
+              </div>
+              <div class="flex gap-4">
+                <img src="Images/icons8-eye-24.png" alt="">
+                <p>20</p>
+              </div>
+              <div class="">
+                <div class="rating gap-1 gap-4">
+                  <input type="radio" name="rating-3" class="mask mask-heart border-red-500 bg-gray-200" />
+                  <p>200</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="card-title text-[#131318] text-2xl font-extrabold">Helmet for cricket</h2>
+            <p class="text-gray-400">To win the trophy in 2022, they are going to need your help! With the 5ft x 3ft
+              Germany Flag.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+              <h3 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h3>
+              <div class="flex gap-4">
+                <img src="Images/download.png" class="w-6 h-6 text-gray-400" alt="">
+                <p class="text-gray-400">Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sixth products -->
+      <div>
+        <div class="card card-side bg-base-100">
+          <figure><img src="/images/10.png" class="w-60 h-60 p-6" alt="Movie" /></figure>
+          <div class="card-body">
+            <div class="grid grid-cols-3 ">
+              <div class="rating gap-4">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <p>5.0</p>
+              </div>
+              <div class="flex gap-4">
+                <img src="Images/icons8-eye-24.png" alt="">
+                <p>20</p>
+              </div>
+              <div class="">
+                <div class="rating gap-1 gap-4">
+                  <input type="radio" name="rating-3" class="mask mask-heart border-red-500 bg-gray-200" />
+                  <p>200</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="card-title text-[#131318] text-2xl font-extrabold">World Cup Flags Football</h2>
+            <p class="text-gray-400">To win the trophy in 2022, they are going to need your help! With the 5ft x 3ft
+              Germany Flag.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+              <h3 class="text-[#FF4240] text-xl font-extrabold">Price - $22.00</h3>
+              <div class="flex gap-4">
+                <img src="Images/download.png" class="w-6 h-6 text-gray-400" alt="">
+                <p class="text-gray-400">Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-        <!-- clients question section -->
+    <!-- clients question section -->
     <section>
       <hr style="height:2px;margin-top:100px;border-width:0;color:rgb(78, 9, 253);background-color:gray">
       <div>
-        <h3 class="text-[#131318] text-center text-4xl font-extrabold mt-8">Clients Question</h3>
+        <h3 class="text-[#131318] text-center text-4xl font-extrabold my-8">Clients Question</h3>
         <p class="text-gray-500 text-center text-base font-medium">Think you know everything about the game, the league,
-          and the players? Test your knowledge here with our ultimate hockey trivia questions</p>
+          and the players? <br> Test your knowledge here with our ultimate hockey trivia questions</p>
       </div>
       <hr
-        style="height:2px;margin-top:32px;margin-bottom:48px;border-width:0;color:rgb(78, 9, 253);background-color:gray">
+        style="height:2px;margin-top:32px;border-width:0;color:rgb(78, 9, 253);background-color:gray">
     </section>
-    <section class="border-2 border-gray-400">
-      <div class="card flex card-side bg-base-100 shadow-xl">
-        <div>
-          <figure><img src="/images/11.png" alt="Movie" /></figure>
-        </div>
-        <div class="grid">
-          <div class="collapse collapse-plus bg-base-200">
-            <input type="radio" name="my-accordion-3" checked="checked" />
-            <div class="collapse-title text-xl font-medium">
-              Our Equipment
+    <section >
+      <div class=" -mt-24 hero min-h-screen">
+        <div class="hero-content lg:gap-10 flex-col lg:flex-row">
+          <img src="images/11.png" class="w-1/2 lg:max-w-sm rounded-lg shadow-2xl" />
+          <div class="">
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                Our Equipment
+              </div>
+              <div class="collapse-content">
+                <p> Personal Equipment needed for hockey players: · 1. Hockey Stick · 2. Shoes · 3. Mouth Guard · 4.
+                  Shin
+                  Guards · 5. Socks and Rash Guards · 6. Stick Bag.</p>
+              </div>
             </div>
-            <div class="collapse-content">
-              <p> Personal Equipment needed for hockey players: · 1. Hockey Stick · 2. Shoes · 3. Mouth Guard · 4. Shin
-                Guards · 5. Socks and Rash Guards · 6. Stick Bag.</p>
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Hockey Training
+              </div>
+              <div class="collapse-content">
+                <p></p>
+              </div>
             </div>
-          </div>
-          <div class="collapse collapse-plus bg-base-200">
-            <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title text-xl font-medium">
-              Hockey Training
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Private Lessons
+              </div>
+              <div class="collapse-content">
+                <p></p>
+              </div>
             </div>
-            <div class="collapse-content">
-              <p></p>
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Ski Touring
+              </div>
+              <div class="collapse-content">
+                <p></p>
+              </div>
             </div>
-          </div>
-          <div class="collapse collapse-plus bg-base-200">
-            <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title text-xl font-medium">
-              Private Lessons
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Booking
+              </div>
+              <div class="collapse-content">
+                <p></p>
+              </div>
             </div>
-            <div class="collapse-content">
-              <p></p>
-            </div>
-          </div>
-          <div class="collapse collapse-plus bg-base-200">
-            <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title text-xl font-medium">
-              Ski Touring
-            </div>
-            <div class="collapse-content">
-              <p></p>
-            </div>
-          </div>
-          <div class="collapse collapse-plus bg-base-200">
-            <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title text-xl font-medium">
-              Booking
-            </div>
-            <div class="collapse-content">
-              <p></p>
-            </div>
-          </div>
-          <div class="collapse collapse-plus bg-base-200">
-            <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title text-xl font-medium">
-              Pricings
-            </div>
-            <div class="collapse-content">
-              <p></p>
+            <div class="collapse collapse-plus">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Pricings
+              </div>
+              <div class="collapse-content">
+                <p></p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- social media section -->
-    <section>
-        <nav class="grid mt-10 mb-10 footer p-10 bg-neutral text-neutral-content">
-          <header class="footer-title">Social</header> 
-          <div class="grid grid-flow-col gap-4">
-            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
-            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
-            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
-          </div>
-        </nav>
-    </section>
+    </section>    
   </main>
-  <footer class="footer p-10 bg-neutral text-neutral-content">
-    <nav>
-      <header class="footer-title">Get In Touch</header> 
-      <p>First Touch. It is important that you have  a great <br> first touch and move the ball in the direction of <br>  where space is available. </p>
-      <a class="link link-hover">hockeys@support.com</a>
-      <a class="link link-hover">(+62) 123-321-543</a>
-    </nav> 
-    <nav>
-      <header class="footer-title">Company</header> 
-      <a class="link link-hover">About us</a>
-      <a class="link link-hover">Leadership</a>
-      <a class="link link-hover">Careers</a>
-      <a class="link link-hover">News & Article</a>
-      <a class="link link-hover">Legal Notice</a>
-    </nav> 
-    <nav>
-      <header class="footer-title">Support</header> 
-      <a class="link link-hover">Help Center</a>
-      <a class="link link-hover">FAQ</a>
-      <a class="link link-hover">Ticket Support</a>
-      <a class="link link-hover">Contact Us</a>
+  <footer class="footer px-36 py-24 bg-neutral-950 grid grid-cols-1 lg:grid-cols-3 justify-center text-neutral-content">
+    <nav class="ml-10 lg:ml-10">
+      <header class="footer-title text-[#FFF] text-3xl font-extrabold">Get In Touch</header>
+      <p class="text-base font-medium text-left">First Touch. It is important that you have a great <br> first touch and move the ball in the direction of <br>
+      where space is available. </p>
+      <div class="flex gap-4">
+        <img src="Images/Group 1171275318.png" class="w-6 h-6" alt="">
+        <a class="link link-hover">hockeys@support.com</a>
+      </div>
+      <div class="flex gap-4 ">
+        <img src="Images/Group 1171275317.png" class="w-6 h-6" alt="">
+        <a class="link link-hover">(+62) 123-321-543</a>
+      </div>
     </nav>
-    <nav>
-      <header class="footer-title">Services</header> 
+    <div class="flex">
+      <nav class="ml-12">
+        <header class="footer-title">Company</header>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Leadership</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">News & Article</a>
+        <a class="link link-hover">Legal Notice</a>
+      </nav>
+      <nav class="ml-32">
+        <header class="footer-title">Support</header>
+        <a class="link link-hover">Help Center</a>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Ticket Support</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+    </div>
+    <nav class="ml-32">
+      <header class="footer-title">Services</header>
       <a class="link link-hover">Academy</a>
       <a class="link link-hover">Group Lesson</a>
       <a class="link link-hover">Private Lesson</a>
       <a class="link link-hover">Hockeys for kids</a>
       <a class="link link-hover">Hockeys for Adult</a>
     </nav>
-    <hr style="height:2px;margin-top:100px;margin-bottom:100px;border-width:0;color:rgb(246, 10, 73);background-color:gray">
+    <hr
+      style="height:2px;margin-top:100px;margin-bottom:100px;border-width:0;color:rgb(246, 10, 73);background-color:gray">
   </footer>
 </body>
 
