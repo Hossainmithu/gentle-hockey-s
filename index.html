@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gentle Hockey's</title>
+  <!-- tailwind & daisyui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- manrope google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- customize color -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'hockey-primary': '#FF4240',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .font-manrope{
+      font-family: 'Manrope', sans-serif;
+    } 
+  </style>
+</head>
+<body class="font-manrope">
+  <header class="md:container md:mx-auto">
+    <!-- navbar section  -->
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-base bg-base-100 rounded-box w-52">
+              <li><a class="text-hockey-primary">Home</a></li>
+             <li><a>About</a></li>
+              <li><a>Pages</a></li>
+             <li><a>Blog</a></li>
+             <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-4xl">Gentle Hockey’s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+        <ul class="menu text-base menu-horizontal px-1">
+          <li><a class="text-hockey-primary">Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+        </div>
+         <div class="navbar-end">
+        <a class="btn bg-hockey-primary text-white">Get Ticket</a>
+        </div>
+      </div>
+    </nav>
+    <!-- slider section -->
+    <div class="carousel w-full lg: h-[550px] mt-10">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="images/1.png" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide2" class="btn btn-circle">❮</a> 
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="images/istockphoto-955087966-612x612.jpg" class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a> 
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      </div> 
+    </div>
+  </header>
+  <main class="md:container md:mx-auto">
+    <section>
+      <hr style="height:2px;margin-top:100px;border-width:0;color:orangered;background-color:gray">
+      <div>
+        <h3 class="text-[#131318] text-center text-4xl font-extrabold mt-8">
+          Professional Hockeys Club
+        </h3>
+        <p class="text-gray-500 text-center text-base font-medium">
+          Primary duties: Professional athletes in hockey play for professional teams.
+          <br>
+          They play hockey games in front of audiences and compete against other teams in their league. 
+        </p>
+      </div>
+      <hr style="height:2px;margin-top: 32px;border-width:0;color:rgb(78, 9, 253);background-color:gray">
+    </section>
+    <section class="flex flex-1 w-full justify-between mt-12">
+      <!-- first professionsl -->
+      <div class="flex-1">
+        <div class="radial-progress w-28 h-28 text-[#FF4240] text-primary" style="--value:87;" role="progressbar"><span class="text-[#131318] font-extrabold text-3xl">87%</span></div>
+        <h4 class="text-[#131318] text-xl font-semibold">Prayer Facility</h4>
+        <p class="text-gray-500 text-base font-normal">There have prayer facilities <br> for all religious person.</p>
+      </div>
+      <!-- second professionsl -->
+      <div class="flex-1">
+        <div class="radial-progress w-28 h-28 text-[#49D293] text-primary" style="--value:95;" role="progressbar"><span class="text-[#131318] font-extrabold text-3xl">95%</span></div>
+        <h4 class="text-[#131318] text-xl font-semibold">Experienced Coach</h4>
+        <p class="text-gray-500 text-base font-normal">We have so much experienced <br> coach for every section.</p>
+      </div>
+      <!-- third professionsl -->
+      <div class="flex-1">
+        <div class="radial-progress w-28 h-28 text-[#FFB546] text-primary" style="--value:90;" role="progressbar"><span class="text-[#131318] font-extrabold text-3xl">90%</span></div>
+        <h4 class="text-[#131318] text-xl font-semibold">Senior Player</h4>
+        <p class="text-gray-500 text-base font-normal">There are available <br> senior player.</p>
+      </div>
+      <!-- fourth professionsl -->
+      <div class="flex-1">
+        <div class="radial-progress w-28 h-28 text-[#4C8DF1] text-primary" style="--value:80;" role="progressbar"><span class="text-[#131318] font-extrabold text-3xl">80%</span></div>
+        <h4 class="text-[#131318] text-xl font-semibold">Training Ground</h4>
+        <p class="text-gray-500 text-base font-normal">There have 3 big fild <br> for practice.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
